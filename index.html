@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/css/ionicons.min.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+     <header>
+         <div class="logo">
+             <a href="#">Mi web</a>
+         </div>
+         <nav id="nav">
+             <ul>
+                 <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                 <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                 <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                 <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                 <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                 <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+             </ul>
+         </nav>
+         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+             <i class="fa-solid fa-bars"></i>
+         </div>
+     </header>
+ </div>
+ 
+ <!-- SECCION INICIO -->
+ <section id="inicio" class="inicio">
+     <div class="contenido-banner">
+         <div class="contenedor-img">
+             <img src="img/Foto de perfil.jpeg" alt="">
+         </div>
+         <h1>Rodriguez Nicolás</h1>
+         <h2>Programador trainee</h2>
+    <div class="redes">
+      
+        <a target="_blank"  href="https://ar.linkedin.com/">Ln</a>
+    </div>
+    </div>
+ </section>
+ 
+ <!-- SECCION SOBRE MI -->
+ <section id="sobremi" class="sobremi">
+     <div class="contenido-seccion">
+         <h2>Sobre Mí</h2>
+         <p><span>Hola, soy Nico Rodriguez.</span>Soy una persona muy fanática del mundo de la tecnología que no hace mucho abrió su mente al mundo de la programación. Aunque ya contaba con conocimiento en hardware y software, estoy muy fascinado y quiero seguir cultivando mis conocimientos en programación y sus múltiples tipos de lenguajes y maneras de trabajo con mucha dedicación.
+         <div class="fila">
+             <!-- datos personales -->
+             <div class="col">
+                 <h3>Datos Personales</h3>
+                 <ul>
+                     <li>
+                         <strong>Cumpleaños</strong>
+                         31-10-1995
+                     </li>
+                     <li>
+                         <strong>Celular</strong>
+                         3764-101709
+                     </li>
+                     <li>
+                         <strong>Email</strong>
+                         rodrigueznico95@hotmail.com
+                     </li>
+                     <li>
+
+                     <li>
+                         <strong>Dirección</strong>
+                         Suiza 3145
+                     </li>
+                     <li>
+                         <strong>Cargo</strong>
+                         <span>FREELANCE</span>
+                     </li>
+                 </ul>
+             </div>
+ 
+             <!-- intereses -->
+             <div class="col">
+                 <h3>Intereses</h3>
+                 <div class="contenedor-intereses">
+                     <div class="interes">
+                         <i class="fa-solid fa-gamepad"></i>
+                         <span>JUEGOS</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-solid fa-headphones"></i>
+                         <span>MUSICA</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-solid fa-plane"></i>
+                         <span>VIAJAR</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-brands fa-apple"></i>
+                         <span>PROG</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-solid fa-person-hiking"></i>
+                         <span>DEPORTE</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-solid fa-book"></i>
+                         <span>SOFTWARE</span>
+                     </div>
+                     <div class="interes">
+                         <i class="fa-solid fa-car"></i>
+                         <span>MOTOS</span>
+                 </div>
+             </div>
+         </div>
+    
+         <button>
+            <a class="descargar_pdf" target="_blank" href="mi cv/mi_cv.pdf" download="mi_cv.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+         </button>
+     </div>
+ </section>
+ 
+ <!-- SECCION SKILLS -->
+ <section class="skills" id="skills">
+     <div class="contenido-seccion">
+         <h2>Skills</h2>
+         <div class="fila">
+             <!-- Technical Skill -->
+             <div class="col">
+              
+                 <div class="skill">
+                     <span>Javascript</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>15%</span>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="skill">
+                     <span>HTML & CSS</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>89%</span>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+             <!-- Professional Skills -->
+             <div class="col">
+              
+                 <div class="skill">
+                     <span>Comunicación</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>80%</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="skill">
+                     <span>Trabajo en Equipo</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>70%</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="skill">
+                     <span>Creatividad</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>99%</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="skill">
+                     <span>Dedicación</span>
+                     <div class="barra-skill">
+                         <div class="progreso">
+                             <span>65%</span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ 
+ <!-- SECCION CURRICULUM -->
+ <section id="curriculum" class="curriculum">
+     <div class="contenido-seccion">
+         <h2>Curriculum</h2>
+         <div class="fila">
+             <div class="col izquierda">
+                 <h3>Educación</h3>
+                 <div class="item izq">
+                     <h4>Escuela secundaria Combate Mbororé</h4>
+                     <span class="casa">Secundaria Combate Mbororé</span>
+                     <span class="fecha">2010 - 2018</span>
+                     
+                     <div class="conectori">
+                         <div class="circuloi"></div>
+                     </div>
+                 </div>
+                 <div class="item izq">
+                     <h4>Tecnicatura Diseño Gráfico Digital</h4>
+                     <span class="casa">Itec Nº3</span>
+                     <span class="fecha">2023</span>
+                     <div class="conectori">
+                         <div class="circuloi"></div>
+                     </div>
+                 </div>
+                 <div class="item izq">
+                     <h4>Academia del Programador Misionero</h4>
+                     <span class="casa">Silicon</span>
+                     <span class="fecha">2021</span>
+                     <div class="conectori">
+                         <div class="circuloi"></div>
+                     </div>
+                 </div>
+             
+             </div>
+ 
+             <div class="col derecha">
+                 <h3>Experiencia de trabajo</h3>
+                 <div class="item der">
+                     <h4>Diseño e impresión 3D</h4>
+                     <span class="casa">Independiente</span>
+                     <span class="fecha">2021 - 2023</span>
+     
+                     <div class="conectord">
+                         <div class="circulod"></div>
+                     </div>
+                 </div>
+            
+             </div>
+         </div>
+     </div>
+ </section>
+ 
+ <!-- SECCION PORTFOLIO -->
+ <section id="portfolio" class="portfolio">
+     <div class="contenido-seccion">
+         <h2>PORTFOLIO</h2>
+         <div class="galeria">
+         
+             <div class="proyecto">
+                 <img src="img/1.jpg" alt="">
+                 <div class="overlay">
+                     <h3>Diseño Creativo</h3>
+                 </div>
+             </div>
+             <div class="proyecto">
+                 <img src="img/2.jpg" alt="">
+                 <div class="overlay">
+                     <h3>Diseño Creativo</h3>    
+                 </div>
+             </div>
+             <div class="proyecto">
+                 <img src="img/3.png" alt="">
+                 <div class="overlay">
+                     <h3>Diseño Creativo</h3>  
+                 </div>
+             </div>
+       
+         </div>
+     </div>
+ </section>
+ 
+ <!-- SECCION CONTACTO -->
+ <section id="contacto" class="contacto">
+     <div class="contenido-seccion">
+        <form action="">
+    <h2>CONTACTO</h2>
+    <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+            <input type="text" placeholder="Tú Nombre">
+            <input type="text" placeholder="Número telefónico">
+            <input type="text" placeholder="Dirección de correo">
+            <input type="text" placeholder="Tema">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button>
+                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </form>
+        
+             <!-- Mapa -->
+             <div class="col">
+                 <img src="img/ubi casa.jpeg" alt="">
+                 <div class="info">
+                     <ul>
+                         <li>
+                           
+                             Suiza 3145, Posadas Misiones
+                         </li>
+                         <li>
+                            
+                             Llamanos: 3764-101709
+                         </li>
+                         <li>
+                             
+                             Email: rodrigueznico95@hotmail.com
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ 
+ <!-- footer -->
+ <footer>
+     <a href="#inicio" class="arriba">
+         <i class="fa-solid fa-angles-up"></i>
+     </a>
+ </footer>
+ 
+ <script src="app.js"></script>
+ </body>
+ </html>
